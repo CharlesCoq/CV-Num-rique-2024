@@ -1,0 +1,166 @@
+/* Cool infinite background scrolling animation.
+Twitter: @kootoopas
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+/* Main styles */
+body {
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+nav {
+  background-color: rgba(65, 65, 65, 0.493);
+}
+
+nav>a:hover {
+  background-color: rgba(226, 226, 226, 0.178);
+}
+
+#contact {
+  padding: 7px 5px;
+  margin: 0 3px;
+
+  background-color: rgba(224, 224, 224, 0.418);
+  border-radius: 28px;
+}
+
+h2 {
+  width: 100%;
+  color: #00000073;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.384);
+  font-weight: 900;
+}
+
+p {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.452);
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+  border: 1px solid rgba(14, 14, 14, 0.288);
+}
+
+.part {
+
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  padding-inline: 240px;
+
+  padding-block: 25px;
+  border-block: solid 1px;
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(63, 61, 61, 0.445), rgba(255, 255, 255, 0)) 1;
+
+}
+
+.bloc {
+  margin: 15px;
+  transition: all 0.4s;
+}
+
+.bloc:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px #00000073;
+  transition: all 0.4s;
+  /* background-color: black; */
+}
+
+.bloc>a>img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 22px;
+  filter: sepia(40%);
+}
+
+.cardz {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: solid 1px black; */
+}
+
+.end>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-decoration: none;
+  color: #0000008c;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  border: solid 1px #00000038;
+  border-radius: 22px;
+  padding-inline: 12px;
+  margin: 4px;
+}

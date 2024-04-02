@@ -1,0 +1,14 @@
+body {
+    background-image: repeating-linear-gradient(315deg, rgba(34,39,59, 0.29) 0px, rgba(34,39,59, 0.29) 1px,transparent 1px, transparent 11px,rgba(34,39,59, 0.29) 11px, rgba(34,39,59, 0.29) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(270deg, rgba(34,39,59, 0.29) 0px, rgba(34,39,59, 0.29) 1px,transparent 1px, transparent 11px,rgba(34,39,59, 0.29) 11px, rgba(34,39,59, 0.29) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(405deg, rgba(34,39,59, 0.29) 0px, rgba(34,39,59, 0.29) 1px,transparent 1px, transparent 11px,rgba(34,39,59, 0.29) 11px, rgba(34,39,59, 0.29) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(360deg, rgba(34,39,59, 0.29) 0px, rgba(34,39,59, 0.29) 1px,transparent 1px, transparent 11px,rgba(34,39,59, 0.29) 11px, rgba(34,39,59, 0.29) 12px,transparent 12px, transparent 32px),linear-gradient(360deg, rgb(20,20,20),rgb(38,38,38));
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#about{
+    padding: 7px 5px;
+    margin: 0 3px;
+
+    background-color: rgba(163, 140, 140, 0.226);
+    border-radius: 28px;
+}
