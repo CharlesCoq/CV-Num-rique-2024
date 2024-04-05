@@ -55,12 +55,12 @@ p {
 }
 
 .picture {
+    padding: 20px;
     max-width: 50%;
     width: 420px;
     height: 240px;
 
     margin-inline: auto;
-
 }
 
 .picture>img {
@@ -80,6 +80,24 @@ p {
 
     .picture {
         order: 1;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
    
+}
+
+.blueCard{
+    box-shadow: 20px -20px rgba(30, 184, 184, 0.322);
+}
+
+.yellowCard{
+    box-shadow: -20px -20px rgba(240, 238, 143, 0.322);
+}
+
+.greyCard{
+    box-shadow: 20px 20px rgba(158, 158, 158, 0.384); 
+}
+
+.lowCard{
+    box-shadow: -20px 20px rgba(52, 114, 66, 0.479);
 }
