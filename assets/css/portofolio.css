@@ -85,6 +85,7 @@ header {
 
 nav {
     background-color: rgba(73, 61, 61, 0.397);
+
 }
 
 nav>a:hover {
@@ -96,7 +97,6 @@ nav>a:hover {
     /* border-block: solid 1px white; */
     border-bottom: solid 1px;
     border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0)) 1;
-
 }
 
 #portofolio {
@@ -162,7 +162,7 @@ border: 1px solid rgba(255, 255, 255, 0.288);
     background: linear-gradient(13deg, #25af5fa2 51%, rgba(247, 192, 73, 0.637) 100%);
 
 
-    animation: border-animation 15s ease infinite;  
+    animation: border-animation 6s ease infinite;  
 }
 
 #softskills>p{
@@ -207,6 +207,9 @@ border: 1px solid rgba(255, 255, 255, 0.288);
     background-size: cover;
 }
 
+.normal{
+    animation: border-animation 6s ease infinite;
+}
 
 .reverse{
     animation: border-animation-reverse 6s ease infinite;

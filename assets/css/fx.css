@@ -1,0 +1,147 @@
+/* CONTACT  */
+/* DISPLAY */
+.appearfirst {
+    -webkit-animation: appear .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: appear .6s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes appear {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes appear {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.appearsecond {
+    -webkit-animation: appearsecond 1s cubic-bezier(.25, .46, .45, .94) both;
+    animation: appearsecond 1s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes appearsecond {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes appearsecond {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.appearthird {
+    -webkit-animation: appearthird 1s cubic-bezier(.25, .46, .45, .94) both;
+    animation: appearthird 1s cubic-bezier(.25, .46, .45, .94) both; 
+}
+
+@-webkit-keyframes appearthird {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes appearthird {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+/* BUTTON HEARTBEAT*/
+.buttonfx:hover {
+    -webkit-animation: buttonfx 1.5s ease-in-out infinite both;
+    animation: buttonfx 1.5s ease-in-out infinite both;
+}
+
+@keyframes buttonfx {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+/* END CONTACT */
