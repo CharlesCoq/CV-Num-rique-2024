@@ -161,7 +161,6 @@ border: 1px solid rgba(255, 255, 255, 0.288);
     border-radius: 20px;
     background: linear-gradient(13deg, #25af5fa2 51%, rgba(247, 192, 73, 0.637) 100%);
 
-
     animation: border-animation 6s ease infinite;  
 }
 
@@ -264,4 +263,18 @@ border: 1px solid rgba(255, 255, 255, 0.288);
 
 .picture{
     width: 300px;
+}
+
+@media only screen and (max-width: 1080px){
+    #softskills{
+        width: 90%;
+    }
+    .box{
+        flex-direction: column;
+        width: 90%;
+    }
+    h2{
+        max-width: 95%;
+    }
+
 }
